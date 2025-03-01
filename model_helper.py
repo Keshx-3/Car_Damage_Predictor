@@ -49,6 +49,9 @@ def predict(image_path):
         except Exception as e:
             return f"Error loading model: {e}"
 
+    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')  # Ensure device is defined
+    image_tensor = image_tensor.to(device)  # Move the image tensor to the correct device
+
     with torch.no_grad():
         image_tensor = image_tensor.to(device)
         output = trained_model(image_tensor)
