@@ -1,5 +1,5 @@
 streamlit==1.41.1
 Pillow==11.1.0
 numpy==1.26.4
-torch==2.6.0+cu118
-torchvision==0.21.0+cu118
+torch==2.6.0+cu118 -f https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.21.0+cu118 -f https://download.pytorch.org/whl/torch_stable.html
