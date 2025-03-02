@@ -38,5 +38,5 @@ Each approach was evaluated for performance, with the best model integrated into
 ## 🚀 How to Run the App
 1. Clone the repository:
    ```bash
-   git clone [<repo-link>](https://github.com/Keshx-3/Car_Damage_Predictor)
+   git clone https://github.com/Keshx-3/Car_Damage_Predictor.git
    cd car-damage-predictor
