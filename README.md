@@ -29,6 +29,10 @@ Each approach was evaluated for performance, with the best model integrated into
 - **>75% classification accuracy**
 - **End-to-end ML pipeline** from data preprocessing to deployment
 
+## ✨ Output
+![image](https://github.com/user-attachments/assets/b2c9dc05-004b-4073-96e6-41615e879665)
+
+
 ## 🛠️ Tech Stack
 - Python  
 - Pytorch  
