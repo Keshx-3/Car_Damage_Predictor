@@ -32,7 +32,7 @@ Each approach was evaluated for performance, with the best model integrated into
 ## 🛠️ Tech Stack
 - Python  
 - Pytorch  
-- OpenCV  
+- Torchvision  
 - Streamlit  
 
 ## 🚀 How to Run the App
